@@ -7,10 +7,10 @@ With YOCA you can easily:
 * generate strong public/private keys
 * create self-signed CA certificates
 * issue client certificates for:
-** web browser client authentication
-**  HTTPS server authentication (eg. Apache)
-** VPN user and server authentication (eg. OpenVPN)
-** etc.
+	* web browser client authentication
+	*  HTTPS server authentication (eg. Apache)
+	* VPN user and server authentication (eg. OpenVPN)
+	* etc.
 * issue and/or sign certificate signing requests (CSR)
 * verify certificates with CA certificate
 * create and verify file signatures
