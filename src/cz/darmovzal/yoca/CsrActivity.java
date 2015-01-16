@@ -131,7 +131,6 @@ public class CsrActivity extends CommonActivity {
 			Date notBefore = builder.getDateValue("not_before");
 			Date notAfter = builder.getDateValue("not_after");
 			if(!checkValidity(notBefore, notAfter)) return;
-			notAfter = Storage.trialNotAfter(notBefore, notAfter);
 			char[] caPass = builder.getPasswordValue("ca_passphrase");
 			Cert caCert = this.getCaCerts().get(builder.getSelectValue("ca_cert"));
 			Slot caSlot = this.getSlotForCert(caCert);

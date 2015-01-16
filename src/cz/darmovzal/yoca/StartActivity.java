@@ -150,7 +150,6 @@ public class StartActivity extends CommonActivity {
 			}
 		});
 		
-		if(Storage.TRIAL) this.note(R.string.note_trial);
 		this.note(R.string.note_start);
 		
 		this.updateKeySizes("ca_key_type", "ca_key_size");
@@ -218,7 +217,6 @@ public class StartActivity extends CommonActivity {
 			Date notBefore = builder.getDateValue("ca_not_before");
 			Date notAfter = builder.getDateValue("ca_not_after");
 			if(!checkValidity(notBefore, notAfter)) return null;
-			notAfter = Storage.trialNotAfter(notBefore, notAfter);
 			Sig sig = Sig.get(builder.getSelectValue("ca_signature_type"));
 			
 			String cn = builder.getEditValue("ca_common_name");
@@ -227,7 +225,7 @@ public class StartActivity extends CommonActivity {
 				"C", builder.getEditValue("ca_country"),
 				"ST", builder.getEditValue("ca_state"),
 				"L", builder.getEditValue("ca_locality"),
-				"O", Storage.trialOrganization(builder.getEditValue("ca_organization")),
+				"O", builder.getEditValue("ca_organization"),
 				"OU", builder.getEditValue("ca_organizational_unit"),
 				"CN", cn
 			);

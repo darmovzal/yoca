@@ -152,7 +152,7 @@ public class RecordActivity extends CommonActivity {
 			"C", builder.getEditValue("country"),
 			"ST", builder.getEditValue("state"),
 			"L", builder.getEditValue("locality"),
-			"O", Storage.trialOrganization(builder.getEditValue("organization")),
+			"O", builder.getEditValue("organization"),
 			"OU", builder.getEditValue("organizational_unit"),
 			"CN", cn
 		);

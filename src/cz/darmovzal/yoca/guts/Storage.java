@@ -13,7 +13,6 @@ import org.spongycastle.util.io.pem.PemObject;
 import android.util.Log;
 
 public class Storage {
-	public static final boolean TRIAL = true;
 	private static final String LTAG = "YOCA:Storage";
 	
 	private static boolean initialized = false;
@@ -440,20 +439,6 @@ public class Storage {
 		while((count = is.read(buffer)) > 0)
 			os.write(buffer, 0, count);
 		os.flush();
-	}
-	
-	public static Date trialNotAfter(Date notBefore, Date notAfter){
-		if(!TRIAL) return notAfter;
-		if((notBefore == null) || (notAfter == null)) return notAfter;
-		long b = notBefore.getTime();
-		long a = notAfter.getTime();
-		long max = 7 * 24 * 60 * 60 * 1000;
-		return new Date(a - b < max ? a : b + max);
-	}
-	
-	public static String trialOrganization(String org){
-		if(!TRIAL) return org;
-		return "Generated with YOCA Trial";
 	}
 	
 	public Cert getVerificationCert(Cert cert){

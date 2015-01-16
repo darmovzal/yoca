@@ -38,7 +38,7 @@ public class App extends Application {
 	
 	public String getVersion(){
 		try {
-			return this.getPackageManager().getPackageInfo(this.getPackageName(), 0).versionName + (this.storage.TRIAL ? "T" : "F");
+			return this.getPackageManager().getPackageInfo(this.getPackageName(), 0).versionName;
 		} catch (Exception e){
 			Log.e(LTAG, "Cannot get version name", e);
 			return "???";

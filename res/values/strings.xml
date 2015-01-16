@@ -214,11 +214,6 @@
 	<string name="import_from_clipboard_failed">Import from clipboard failed</string>
 	<string name="object_successfully_imported">Object successfully imported</string>
 	
-	<string name="note_trial"><![CDATA[
-		You are using <b>free Trial version</b> of <i>YOCA PKI</i> application. This differs from full-featured version in:<br>
-		• validity of issued certificates is limited to 7 days<br>
-		• organization name is fixed to predefined text
-	]]></string>
 	<string name="note_archive"><![CDATA[
 		<b>Archive your data after every change.</b> Archive file (<i>*.yoca</i>) is AES encrypted ZIP stream containing all managed objects such
 		as keys, certificates and CSR\'s. Please set encryption passphrase in application settings before

@@ -41,13 +41,13 @@ public class SettingsActivity extends PreferenceActivity {
 		this.registerPrefillListener("pre_validity");
 		
 		Preference about = this.findPreference("about");
-		about.setSummary("Tomas Darmovzal (C) 2012, v" + ((App) this.getApplicationContext()).getVersion());
+		about.setSummary("Tomas Darmovzal (C) 2012-2015, v" + ((App) this.getApplicationContext()).getVersion());
 		about.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener(){
 			public boolean onPreferenceClick(Preference p){
 				Intent intent = new Intent(Intent.ACTION_SEND);
 				intent.setType("message/rfc822");
 				intent.putExtra(Intent.EXTRA_EMAIL, new String[]{ "tomas.darmovzal.android@gmail.com" });
-				intent.putExtra(Intent.EXTRA_SUBJECT, Storage.TRIAL ? "YOCA PKI" : "YOCA PKI Full Version");
+				intent.putExtra(Intent.EXTRA_SUBJECT, "YOCA PKI");
 				try {
 					startActivity(intent);
 				} catch (Exception e){
