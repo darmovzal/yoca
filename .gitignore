@@ -1,4 +1,5 @@
 *.keystore
+YOCA.apk
 bin
 gen
 build.xml
