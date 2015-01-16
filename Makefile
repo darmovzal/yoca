@@ -1,4 +1,5 @@
-ANDROID_API = /opt/android-sdk-linux/platforms/android-8/android.jar
+SDK = /opt/android-sdk
+ANDROID_API = $(SDK)/platforms/android-8/android.jar
 KEYSTORE = darmovzal.keystore
 KEYNAME = darmovzal
 
@@ -20,4 +21,7 @@ release:
 	jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore $(KEYSTORE) YOCA.apk $(KEYNAME)
 	zipalign -v 4 YOCA.apk YOCA_aligned.apk
 	mv YOCA_aligned.apk YOCA.apk
+
+update:
+	$(SDK)/tools/android update project -t android-8 -p .
 
