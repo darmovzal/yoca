@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<a:PreferenceScreen xmlns:a="http://schemas.android.com/apk/res/android" a:title="@string/settings">
+	<a:PreferenceCategory a:title="@string/archive_and_restore">
+		<a:EditTextPreference
+			a:title="@string/archive_directory"
+			a:inputType="text"
+			a:key="archive_dir"
+			a:persistent="true"
+		/>
+		<a:EditTextPreference
+			a:title="@string/archive_passphrase"
+			a:inputType="textPassword"
+			a:key="archive_pass"
+			a:persistent="true"
+			a:defaultValue=""
+		/>
+	</a:PreferenceCategory>
+	<a:PreferenceCategory a:title="@string/prefilled_values">
+		<a:EditTextPreference
+			a:title="@string/organization"
+			a:inputType="text"
+			a:key="pre_organization"
+			a:persistent="true"
+			a:defaultValue=""
+		/>
+		<a:EditTextPreference
+			a:title="@string/organizational_unit"
+			a:inputType="text"
+			a:key="pre_organizational_unit"
+			a:persistent="true"
+			a:defaultValue=""
+		/>
+		<a:EditTextPreference
+			a:title="@string/locality"
+			a:inputType="text"
+			a:key="pre_locality"
+			a:persistent="true"
+			a:defaultValue=""
+		/>
+		<a:EditTextPreference
+			a:title="@string/state"
+			a:inputType="text"
+			a:key="pre_state"
+			a:persistent="true"
+			a:defaultValue=""
+		/>
+		<a:EditTextPreference
+			a:title="@string/country"
+			a:inputType="text"
+			a:key="pre_country"
+			a:persistent="true"
+			a:defaultValue=""
+		/>
+		<a:EditTextPreference
+			a:title="@string/validity_in_days"
+			a:inputType="text"
+			a:key="pre_validity"
+			a:persistent="true"
+			a:defaultValue="365"
+		/>
+	</a:PreferenceCategory>
+	<a:PreferenceCategory a:title="@string/other_settings">
+		<a:CheckBoxPreference
+			a:title="@string/show_notes"
+			a:key="show_notes"
+			a:persistent="true"
+			a:defaultValue="true"
+			a:summaryOn="@string/notes_are_visible"
+			a:summaryOff="@string/notes_are_hidden"
+		/>
+		<a:Preference
+			a:title="@string/about"
+			a:key="about"
+			a:persistent="false"
+		/>
+	</a:PreferenceCategory>
+</a:PreferenceScreen>
+

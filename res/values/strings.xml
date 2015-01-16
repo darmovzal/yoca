@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">YOCA</string>
+	<string name="app_name_long">Your Own Certificate Authority</string>
+	<string name="generate_new_keypair">Create new record</string>
+	<string name="key_type">Key type</string>
+	<string name="key_size">Key size</string>
+	<string name="generate_keypair">Generate keypair</string>
+	<string name="key_passphrase">Key passphrase</string>
+	<string name="name">Name</string>
+	<string name="list_of_authorities">List of authorities</string>
+	<string name="list_of_records">List of records</string>
+	<string name="change_name">Change name</string>
+	<string name="public_and_private_keys">Public and private keys</string>
+	<string name="public_key">Public key</string>
+	<string name="issue_certificate_request">Issue certificate request</string>
+	<string name="enter_private_key_passphrase">Enter private key passphrase</string>
+	<string name="common_name">Common name</string>
+	<string name="organization">Organization</string>
+	<string name="organizational_unit">Organizational unit</string>
+	<string name="locality">Locality</string>
+	<string name="state">State or province</string>
+	<string name="country">Country (2-letter code)</string>
+	<string name="certificate_request">Certificate request</string>
+	<string name="private_key">Private key</string>
+	<string name="present">Present</string>
+	<string name="missing">Missing</string>
+	<string name="public_exponent">Public exponent</string>
+	<string name="modulus">Modulus</string>
+	<string name="please_wait">Please wait</string>
+	<string name="generating_keypair">Generating keypair ...</string>
+	<string name="error">Error</string>
+	<string name="info">Info</string>
+	<string name="failed_to_generate_keypair">Failed to generate keypair</string>
+	<string name="create_new_authority">Create new authority</string>
+	<string name="valid_not_before">Not valid before</string>
+	<string name="valid_not_after">Not valid after</string>
+	<string name="signature_digest_type">Signature digest type</string>
+	<string name="failed_to_create_ca">Failed to create certificate authority</string>
+	<string name="record_name_has_been_changed">Record name has been changed</string>
+	<string name="certificate">Certificate</string>
+	<string name="subject">Subject</string>
+	<string name="issuer">Issuer</string>
+	<string name="serial_number">Serial number</string>
+	<string name="signature">Signature</string>
+	<string name="signature_type">Signature type</string>
+	<string name="signature_data">Signature data</string>
+	<string name="select_authority_certificate">Select authority certificate</string>
+	<string name="sign_certificate_request">Sign certificate request</string>
+	<string name="decipher_private_key">Decipher private key</string>
+	<string name="encrypted">Encrypted</string>
+	<string name="private_exponent">Private exponent</string>
+	<string name="wrong_passphrase">Wrong passphrase</string>
+	<string name="export_public_key">Export public key</string>
+	<string name="export_public_key_to_clipboard">Export public key to clipboard</string>
+	<string name="export_public_key_to_file">Export public key to file</string>
+	<string name="select_export_path">Select export path</string>
+	<string name="change_private_key_passphrase">Change private key passphrase</string>
+	<string name="new_passphrase">New passphrase</string>
+	<string name="original_passphrase">Original passphrase</string>
+	<string name="export_private_key">Export private key</string>
+	<string name="export_private_key_to_clipboard">Export private key to clipboard</string>
+	<string name="export_private_key_to_file">Export private key to file</string>
+	<string name="export_passphrase">Export passphrase</string>
+	<string name="export_passphrase_recommended">Export passphrase (RECOMMENDED)</string>
+	<string name="private_key_passphrase">Private key passphrase</string>
+	<string name="passphrase_has_been_changed">Passphrase has been changed</string>
+	<string name="please_enter_file_name">Please enter file name</string>
+	<string name="cannot_write_into_file">Cannot write into file</string>
+	<string name="public_key_export_failed">Public key export failed</string>
+	<string name="public_key_exported">Public key exported</string>
+	<string name="show_public_key">Show public key</string>
+	<string name="show_private_key">Show private key</string>
+	<string name="private_key_exported">Private key exported</string>
+	<string name="private_key_exported_unprotected">Private key exported in UNCIPHERED form!</string>
+	<string name="private_key_export_failed">Private key export failed</string>
+	<string name="please_do_not_leave_passphrase_blank">Please do not leave passphrase blank</string>
+	<string name="export_certificate">Export certificate</string>
+	<string name="export_certificate_to_file">Export certificate to file</string>
+	<string name="export_certificate_to_clipboard">Export certificate to clipboard</string>
+	<string name="certificate_export_failed">Certificate export failed</string>
+	<string name="certificate_exported">Certificate exported</string>
+	<string name="export_certificate_request">Export certificate request</string>
+	<string name="export_csr_to_file">Export CSR to file</string>
+	<string name="export_csr_to_clipboard">Export CSR to clipboard</string>
+	<string name="certificate_request_export_failed">Certificate request export failed</string>
+	<string name="certificate_request_exported">Certificate request exported</string>
+	<string name="please_enter_name">Please enter name</string>
+	<string name="please_do_not_leave_common_name_blank">Please do not leave Common name blank</string>
+	<string name="certificates">Certificates</string>
+	<string name="certificate_requests">Certificate requests</string>
+	<string name="x_certificates">{0,choice,0#No certificates|1#One certificate|1&lt;{0} certificates}</string>
+	<string name="x_certificate_requests">{0,choice,0#No certificate requests|1#One certificate request|1&lt;{0} certificate requests}</string>
+	<string name="x_records">{0,choice,0#No record|1#One record|1&lt;{0} records}</string>
+	<string name="x_authorities">{0,choice,0#No authority|1#One authority|1&lt;{0} authorities}</string>
+	<string name="prime_p">Prime P</string>
+	<string name="prime_q">Prime Q</string>
+	<string name="prime_exponent_p">Prime exponent P</string>
+	<string name="prime_exponent_q">Prime exponent Q</string>
+	<string name="crt_coefficient">CRT coefficient</string>
+	<string name="import_record_from_pkcs12_file">Import record from PKCS#12 file</string>
+	<string name="select_pkcs12_file">Select PKCS#12 file (*.p12, *.pfx)</string>
+	<string name="pkcs12_passphrase">PKCS#12 passphrase</string>
+	<string name="cannot_read_from_file">Cannot read from file</string>
+	<string name="import_from_pkcs12_file_failed">Import from PKCS#12 file failed</string>
+	<string name="import_security_objects">Import security object(s)</string>
+	<string name="x_records_imported_or_affected">{0,choice,0#No records|1#One record|1&lt;{0} records} imported or affected</string>
+	<string name="verify_file">Verify file</string>
+	<string name="sign_file">Sign file</string>
+	<string name="create_or_verify_file_signatures">Create or verify file signatures</string>
+	<string name="select_file_to_sign_or_verify">Select file to sign or verify</string>
+	<string name="error_in_verification_process">Error in verification process</string>
+	<string name="wrong_signature_format">Wrong signature format</string>
+	<string name="signature_successfully_verified">Signature successfully verified</string>
+	<string name="signature_is_not_verified">Signature is NOT verified</string>
+	<string name="basic_constraints">Basic constraints</string>
+	<string name="is_certificate_authority">IS certificate authority</string>
+	<string name="is_not_certificate_authority">is NOT certificate authority</string>
+	<string name="path_length">Path length</string>
+	<string name="critical">critical</string>
+	<string name="key_usage">Key usage</string>
+	<string name="extended_key_usage">Extended key usage</string>
+	<string name="unknown">Unknown</string>
+	<string name="extensions">Extensions</string>
+	<string name="signing_certificate_request_failed">Signing certificate request failed</string>
+	<string name="removal">Removal</string>
+	<string name="remove_certificate">Remove certificate</string>
+	<string name="remove_certificate_request">Remove certificate request</string>
+	<string name="do_you_really_want_to_remove_certificate_x">Are you SURE you want to remove certificate {0}?</string>
+	<string name="do_you_really_want_to_remove_certificate_request_x">Are you SURE you want to remove certificate request {0}?</string>
+	<string name="confirmation">Confirmation</string>
+	<string name="remove_record">Remove record</string>
+	<string name="do_you_really_want_to_remove_whole_record">Are you SURE you want to remove all keys, certificates and requests in this record?</string>
+	<string name="are_you_100_percent_positive">Are you 100% positive? You are going to loose all keys and certificates in this record!</string>
+	<string name="no_records">No records</string>
+	<string name="export_as_pkcs12">Export as PKCS#12 bundle (*.p12, *.pfx)</string>
+	<string name="select_certificate_to_export">Select certificate to export</string>
+	<string name="pkcs12_export_failed">PKCS#12 export failed</string>
+	<string name="pkcs12_exported">PKCS#12 bundle successfully exported</string>
+	<string name="authority_key_passphrase">Authority key passphrase</string>
+	<string name="main">YOCA</string>
+	<string name="record">Record</string>
+	<string name="authorities">Authorities</string>
+	<string name="records">Records</string>
+	<string name="keys">Keys</string>
+	<string name="imports">Imports</string>
+	<string name="csr">CSR</string>
+	<string name="archive_and_restore">Archive and restore</string>
+	<string name="archive_all_records">Archive all records</string>
+	<string name="restore_all_records">Restore all records</string>
+	<string name="select_file_to_restore_from">Select file to restore from</string>
+	<string name="settings">Settings</string>
+	<string name="archive_directory">Archive directory</string>
+	<string name="archive_passphrase">Archive passphrase</string>
+	<string name="passphrase_not_set">Passphrase is NOT set</string>
+	<string name="passphrase_is_set">Passphrase is set</string>
+	<string name="archiving">Archiving ...</string>
+	<string name="please_set_archive_directory">Please set archive directory in settings</string>
+	<string name="please_set_archive_passphrase">Please set archive passphrase in settings</string>
+	<string name="successfully_archived_into_x">Successfully archived into {0}</string>
+	<string name="creating_archive_failed">Creating archive failed</string>
+	<string name="archiving_and_restoring">Archiving and restoring ...</string>
+	<string name="restoring_failed">Restoring failed</string>
+	<string name="successfully_restored">Successfully restored</string>
+	<string name="validity_end_precedes_validity_begin">Validity end must not precede validity begin</string>
+	<string name="valid">valid</string>
+	<string name="not_valid">NOT VALID</string>
+	<string name="prefilled_values">Pre-filled values</string>
+	<string name="validity_in_days">Validity in days</string>
+	<string name="validity">Validity</string>
+	<string name="tampered">TAMPERED!</string>
+	<string name="unable_to_verify">unable to verify</string>
+	<string name="verified_by">Verified by</string>
+	<string name="verified">verified</string>
+	<string name="import_x509_certificate">Import X.509 certificate</string>
+	<string name="select_certificate_file">Select certificate file (*.cer, *.crt, *.pem)</string>
+	<string name="certificate_import_failed">Certificate import failed</string>
+	<string name="imported_from_x_on_y">Imported from {0} on {1,date,yyyy/MM/dd HH:mm}</string>
+	<string name="self_signed">Self-signed</string>
+	<string name="import_key">Import key</string>
+	<string name="select_key_file">Select key file (*.key, *.pem)</string>
+	<string name="key_import_failed">Key import failed</string>
+	<string name="note">Note</string>
+	<string name="other_settings">Other settings</string>
+	<string name="show_notes">Show notes</string>
+	<string name="notes_are_visible">Notes are visible</string>
+	<string name="notes_are_hidden">Notes are hidden</string>
+	<string name="about">About</string>
+	<string name="subject_alternative_names">Subject alternative names</string>
+	<string name="subject_alternative_name">Subject alternative name</string>
+	<string name="empty">Empty</string>
+	<string name="wrong_extension_value_format">Wrong extension value format</string>
+	<string name="x_revoked_certificates">{0,choice,0#No revoked certificates|1#One revoked certificate|1&lt;{0} revoked certificates}</string>
+	<string name="revocation_list">Revocation list</string>
+	<string name="revoked">Revoked</string>
+	<string name="revocation_info">Revocation info</string>
+	<string name="revoke_certificate">Revoke certificate</string>
+	<string name="since">Since</string>
+	<string name="reason">Reason</string>
+	<string name="do_you_really_want_to_revoke_certificate_x">Are you SURE you want to revoke certificate {0}?</string>
+	<string name="do_you_really_want_to_unrevoke_certificate_x">Are you SURE you want to un-revoke certificate {0}?</string>
+	<string name="revoked_2">REVOKED</string>
+	<string name="unrevoke_certificate">Un-revoke certificate</string>
+	<string name="export_crl">Export CRL</string>
+	<string name="crl_exported">CRL exported</string>
+	<string name="crl_export_failed">CRL export failed</string>
+	<string name="import_x509_signing_request">Import X.509 signing request (CSR)</string>
+	<string name="select_signing_request_file">Select signing request (CSR) file (*.csr, *.pem)</string>
+	<string name="signing_request_import_failed">Signing request (CSR) import failed</string>
+	<string name="import_pem_object_from_clipboard">Import PEM object from clipboard</string>
+	<string name="pem_passphrase_optional">PEM passphrase (optional)</string>
+	<string name="clipboard_is_empty">Clipboard is empty</string>
+	<string name="imported_from_clipboard_on_x">Imported from clipboard on {0,date,yyyy/MM/dd HH:mm}</string>
+	<string name="import_from_clipboard_failed">Import from clipboard failed</string>
+	<string name="object_successfully_imported">Object successfully imported</string>
+	
+	<string name="note_trial"><![CDATA[
+		You are using <b>free Trial version</b> of <i>YOCA PKI</i> application. This differs from full-featured version in:<br>
+		• validity of issued certificates is limited to 7 days<br>
+		• organization name is fixed to predefined text
+	]]></string>
+	<string name="note_archive"><![CDATA[
+		<b>Archive your data after every change.</b> Archive file (<i>*.yoca</i>) is AES encrypted ZIP stream containing all managed objects such
+		as keys, certificates and CSR\'s. Please set encryption passphrase in application settings before
+		first archiving. Same passphrase must be set on every device where you need to restore data from archived file.
+	]]></string>
+	<string name="note_new_authority"><![CDATA[
+		With this tool you can create key-pair with single self-signed authority certificate. You need to specify
+		at least new record name, private key passphrase and certificate "Common name". Authority certificates
+		usually contain text "ROOT CA" in their Common names. Consider validity length for all other certificates
+		signed with this authority became invalid after expiration of this certificate. Use strong passphrase
+		to protect authority private key. Some security tools may not accept SHA-256 signature.
+	]]></string>
+	<string name="note_new_record"><![CDATA[
+		With this tool you can generate new key-pair in new record. No certificate is created at this moment.
+	]]></string>
+	<string name="note_new_csr"><![CDATA[
+		This tool lets you issue new certificate request (CSR) which can be submitted to any certification
+		authority for signing. You can sign issued CSR with any authority managed by this application as well.
+		CSR is public key plus requested subject name (common name, organization, locality, etc.)
+		signed with corresponding private key. This ensures potential receiver that public key inside
+		this CSR was not tampered during its transmission.<br><br>
+		Take extra care of \"Common name\" field:<br>
+		• in case you are issuing new HTTPS server certificate you need to enter fully qualified
+		domain name, such as \"www.mydomain.com\", otherwise web browsers will not accept your certificate<br>
+		• in case you are issuing certificate for HTTPS client authentication or VPN authentication, you
+		will probably need to specify there some kind of unique client ID, such as login name
+	]]></string>
+	<string name="note_export_pkcs12"><![CDATA[
+		PKCS#12 bundle is standard container format for holding objects such as keys and certificates.
+		Typically you can use this to import private key and certificate into web browser and
+		use them as client authentication for HTTPS services.
+	]]></string>
+	<string name="note_record"><![CDATA[
+		Record contains always public key and optionally private key. Record also groups together all
+		issued certificates and certification requests sharing the same public key.
+	]]></string>
+	<string name="note_start"><![CDATA[
+		All objects managed by this application are kept in private filesystem space, which ensures
+		no other application can reach them (on non-rooted devices). Unfortunately it also means that <b>all data
+		are wiped out when you uninstall this application</b>. Therefore you are encouraged to <b>ARCHIVE YOUR
+		DATA OFTEN</b> so that accidental uninstallation would not cause data loss.<br><br>
+		Please send comments and bug reports by clicking <i>About application</i> item in the <i>Settings</i> menu.<br><br>
+		This application contains set of tools for asymmetric cryptography. Asymmetric cryptography
+		uses two mathematically linked keys. Only way to decrypt data encrypted with one of them
+		is to use the other one. One of them is declared public and is usually used for data encryption and
+		verifying signatures. The other is declared private, protected with passphrase and is used for
+		decryption and creating data signatures.
+	]]></string>
+	<string name="note_signature"><![CDATA[
+		Signature is data digest encrypted with private key. Only way to verify
+		signature is to decrypt signature with corresponding public key and compare the result with computed
+		data digest. It serves to ensure receiver that data were not tampered during its
+		transmission from sender. Digest is short fixed-length \"fingerprint\" of large data which changes rapidly with
+		even the slightest change of data (eg. change of single bit).
+	]]></string>
+	<string name="note_csr"><![CDATA[
+		This screen contains informations about issued or imported certificate signing request (CSR). CSR can be submitted
+		to any certification authority to sign. You can also sign CSR with any authority with private
+		key managed by this application.<br><br>
+		CSR is public key plus requested subject name (common name, organization, locality, etc.)
+		signed with corresponding private key. This ensures potential receiver that public key inside
+		this CSR was not tampered during its transmission.
+	]]></string>
+	<string name="note_cert"><![CDATA[
+		This screen contains informations about issued or imported X.509 certificate. Certificate contains
+		subject\'s (owner\'s) public key with several additional information all together signed with private
+		key of certificate authority. Additional information contains X.500 names of subject and
+		issuer (authority), validity date interval and serial number.<br><br>
+		Serial number is unique identifier of certificate assigned by certificate authority. No two different certificates
+		sharing the same serial number signed by the same authority should exist.<br><br>
+		Certificate may also contain several extensions - additional informations such as intended usage or flag
+		indicating if this is authority certificate used for signing other certificates.
+	]]></string>
+	<string name="note_import"><![CDATA[
+		On this screen you can import keys, certificates and certificate requests into this application. Every
+		imported object is compared to existing records (due to its public key part) and appended to existing
+		record if possible or to newly created record otherwise. You can import objects from file or from
+		textual PEM representation in clipboard. Duplicities of objects are avoided.
+		Import supports following file formats:<br>
+		• public or private RSA or DSA keys in PEM format only<br>
+		• X.509 certificates in DER or PEM format<br>
+		• X.509 certificate signing requests (CSRs) in PEM format<br>
+		• PKCS#12 keys and certificate bundle, can handle arbitrary number of records inside single bundle.
+	]]></string>
+</resources>
+
