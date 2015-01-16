@@ -790,7 +790,7 @@ public class UIBuilder {
 	}
 	
 	public UIBuilder groupBegin(String name, String text){
-		if(this.group != null) throw new IllegalStateException("Group already bagun");
+		if(this.group != null) throw new IllegalStateException("Group already begun");
 		if(this.groups.containsKey(name)) throw new IllegalArgumentException("Group name \"" + name + "\" already defined");
 		this.separator();
 		UIGroup g = new UIGroup(this.c, name, text);
