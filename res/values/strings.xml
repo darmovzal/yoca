@@ -301,7 +301,7 @@
 	<string name="note_license"><![CDATA[
 		This software is provided under terms of GNU GENERAL PUBLIC LICENSE, Version 3. For source
 		codes please visit:<br>
-		<em>http://bitbucket.com/darmovzal/yoca</em><br>
+		<em>https://github.com/darmovzal/yoca</em><br>
 		Feel free to send me any patches or improvements.
 	]]></string>
 </resources>
