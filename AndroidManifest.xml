@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="cz.darmovzal.yoca"
+	android:versionCode="5"
+	android:versionName="1.05" >
+	
+	<uses-sdk android:minSdkVersion="8"/>
+	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+	<application
+		android:icon="@drawable/icon_launcher"
+		android:label="YOCA PKI"
+		android:name=".App"
+	>
+		<activity
+			android:name=".StartActivity"
+			android:launchMode="singleTop"
+		>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+			android:name=".RecordActivity"
+			android:launchMode="singleTop"
+		/>
+		
+		<activity
+			android:name=".RecordListActivity"
+			android:launchMode="singleTop"
+		/>
+		
+		<activity
+			android:name=".KeysActivity"
+			android:launchMode="singleTop"
+		/>
+		
+		<activity
+			android:name=".CsrActivity"
+			android:launchMode="singleTop"
+		/>
+		
+		<activity
+			android:name=".CertActivity"
+			android:launchMode="singleTop"
+		/>
+		
+		<activity
+			android:name=".ImportActivity"
+			android:launchMode="singleTop"
+		/>
+		
+		<activity
+			android:name=".SettingsActivity"
+			android:launchMode="singleTop"
+		/>
+		
+		<activity
+			android:name=".CrlActivity"
+			android:launchMode="singleTop"
+		/>
+	</application>
+</manifest>
