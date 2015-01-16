@@ -12,7 +12,7 @@ install:
 	ant installd
 
 start:
-	adb shell am start -n cz.darmovzal.yoca.full/.StartActivity
+	adb shell am start -n cz.darmovzal.yoca/.StartActivity
 
 release:
 	test -f $(KEYSTORE) || (echo '*** Cannot find Google-Play keystore file: $(KEYSTORE) ***'; false)
