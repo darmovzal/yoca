@@ -151,6 +151,7 @@ public class StartActivity extends CommonActivity {
 		});
 		
 		this.note(R.string.note_start);
+		this.note(R.string.note_license);
 		
 		this.updateKeySizes("ca_key_type", "ca_key_size");
 		this.updateKeySizes("key_type", "key_size");

@@ -298,5 +298,9 @@
 		• X.509 certificate signing requests (CSRs) in PEM format<br>
 		• PKCS#12 keys and certificate bundle, can handle arbitrary number of records inside single bundle.
 	]]></string>
+	<string name="note_license"><![CDATA[
+		This software is provided under terms of GNU GENERAL PUBLIC LICENSE, Version 3. For source
+		codes please visit: <em>http://bitbucket.com/darmovzal/yoca</em>
+	]]></string>
 </resources>
 
