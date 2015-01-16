@@ -1,7 +1,7 @@
 # YOCA PKI
 ## YOCA PKI - Your Own Certificate Authority for Android
 
-Your swiss knife for public key security.
+Your swiss army knife for public key security.
 
 With YOCA you can easily:
 * generate strong public/private keys
